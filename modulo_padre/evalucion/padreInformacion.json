@@ -1,0 +1,16 @@
+{
+  "padres": [
+    {
+		"id": 1,	
+		"name": "Laura",
+		"surname": "Espinoza",
+		"dni": "40645641",
+		"email": "laura.suarez@gmail.com",
+		"password": "0123456789",
+		"img": "./img/lauraEspinoza.png",
+		"altImg": "img-Laura-Espinoza",
+		"bienvenida": "¡Bienvenida Laura Espinoza!",
+		"hijo": "58645641"
+    }
+  ]
+}

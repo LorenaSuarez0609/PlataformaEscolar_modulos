@@ -1,0 +1,33 @@
+.card-img-top img{
+    width: 100%;
+}
+.container-card-tutorials{
+    justify-content: center;
+}
+.card-flex{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 30px;;
+    margin-right: 30px;
+}
+.card-flex > div{
+    flex:50%;
+    margin: 10px;
+    padding: 5px;
+}
+
+@media (max-width: 800px) {
+    .card-flex {
+        flex: 100%;
+        flex-wrap: wrap;
+    }
+    .card-title{
+        font-size:10px;
+    }
+    .card-body a{
+        font-size:8px;
+    }
+    .card-img-top img{
+        width: 4rem;
+    }
+}

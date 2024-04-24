@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    scrollbar-color: #ffffff75 transparent;
+}
+
+.cleaning{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-evaluaciones{
+    height: 500px !important;
+    margin-top: 180px;
+    margin-left: 50px;
+    margin-right: 75px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.tituloEvaluaciones{
+    width: 100%;
+    top: 20px;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+
+.evaluaciones{
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px !important;   
+}
+
+.identificacion{
+    margin-top: 10px;
+    padding-left: 60px;
+}
+
+.img-evaluaciones{
+    width: 100%;
+}

@@ -1,0 +1,356 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  scrollbar-color: #ffffff75;
+  
+}
+.body{
+    background: #66b9bf;
+}
+
+h1 {
+  font-size: 52px;
+}
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+a:hover {
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+/*Nav bar arriba*/
+.sidebar-section-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.container-fluid h1 {
+  margin-left: 3rem;
+}
+#rendix_logo {
+  font-size: 28px;
+}
+.img_logo_header {
+  width: 4rem;
+}
+.form-control.me-2 {
+  width: auto;
+  max-width: 10rem;
+  background-color: #6db2b4;
+  margin-left: 3rem;
+}
+.navbar-nav a {
+  color: #000000;
+  text-decoration: none;
+}
+.navbar-nav {
+  margin-right: 2rem;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+.img-profesor {
+  width: 3.8rem;
+}
+
+/*sidevar lateral*/
+
+.material-symbols-outlined {
+  font-size: 30px;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px; /* Ancho del menú lateral */
+  height: 100vh;
+  z-index: 999;
+  }
+
+.container-menu-lateral {
+  position: absolute;
+  min-height: 250px;
+  max-width: 100vw;
+  max-height: 100vh;
+  margin-top: 60px;
+  height: 100rem;
+}
+.cont-menu {
+  font-size: 12px;
+  width: 100%;
+  max-width: 250px;
+  background: #07889b;
+  height: 150%;
+  position: relative;
+}
+.cont-menu nav a {
+  font-size: 12px;
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+  border-left: 5px solid transparent;
+  transition: all 400ms ease;
+}
+.menu-reporte-academico{
+  margin-top: 5px;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+.menu-reporte-academico li{
+  list-style-type: none;
+}
+
+.cont-menu nav a:hover {
+  border-left: 5px solid #c7c7c7;
+  background: #04b19a;
+}
+#img_sidebar{
+  width: 7%;
+  margin: 0 15px;
+}
+#img_sidebar_logo{
+  width: 65%;
+  margin-left: 35px;
+  vertical-align: middle;
+  opacity: 0.2;
+}
+/*Home*/
+
+.home {
+  padding-left: 170px;
+  padding-top: 70px;
+  height: 100%;
+  background: #66b9bf;
+}
+#titulo, #notas{
+    margin-left: 100px;
+    margin-top:20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    
+}
+#titulo{
+    font-size: 24px;
+}
+#notas{
+    padding: 5px;
+    font-size: 14px;
+}
+
+/*Notas Pendientes*/
+.container-all-notas{
+  margin-left: 100px;
+  display: flex;
+  padding: 0px;
+} 
+.container-all{
+  margin-left: 80px;
+  display: flex;
+  padding: 0px;
+  
+}
+.ag-pendiente_item {
+  flex: 50%;
+  margin: 10px;
+  border: 5px solid #fff;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.ag-pendiente-item_content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.ag-pendiente-item_link {
+    display: block;
+    padding: 5px 5px;
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+}
+.ag-pendiente-item_title {
+    min-height: 70px;
+    margin-top: 30px;
+    margin-left: 10px;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    z-index: 2;
+    position: relative;
+    text-decoration: none;
+}
+.ag-pendiente-item_cal {
+    font-size: 15px;
+    color: #000000;
+    z-index: 2;
+    position: relative;
+    text-decoration: none;
+}
+.ag-pendiente-item_desc{
+    font-size: 15px;
+    color: #494949;
+    text-align: center;
+    margin-bottom: 15px;
+    z-index: 2;
+    position: relative;
+    text-decoration: none;
+}
+.ag-pendiente-item_name {
+    font-weight: bold;
+    color: #f9b234;
+    -webkit-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease
+}
+.ag-pendiente-item_bg {
+    height: 15px;
+    width: 100%;
+    background-color: #e37222;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: -1px;
+    border-radius: 10px;
+}
+.ag-pendiente_item:nth-child(2n) .ag-pendiente-item_bg {
+    background-color: #07889b;
+}
+.ag-pendiente_item:nth-child(3n) .ag-pendiente-item_bg {
+    background-color: #e37222;
+}
+.ag-pendiente_item:nth-child(4n) .ag-pendiente-item_bg {
+    background-color: #07889b;
+}
+.ag-pendiente_item:nth-child(5n) .ag-pendiente-item_bg {
+    background-color: #e37222;
+}
+
+/*comunicados*/
+.card-comunicado{
+  margin-left: 110px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.titulo-comunicado,.horarios{
+  margin-left: 100px;
+  padding-top: 20px;
+  font-size: 14px;
+}
+.card-body h5{
+  margin-left: 10px;
+  color: #555353;
+  font-size: 12px;
+}
+.card-body a{
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+/*Estilos Tabla Horarios*/
+.table-horarios{
+    margin-left: 110px;
+    border-collapse: collapse;
+    color:#07889b;
+    text-align: center;
+}
+.table-horarios th{
+    width:10em;
+  }
+
+tr:nth-of-type(1)>th{
+    background-color:#fff;
+}
+tr:nth-of-type(2)>th,
+tr:nth-of-type(3)>th,
+tr:nth-of-type(4)>th,
+tr:nth-of-type(5)>th,
+tr:nth-of-type(6)>th,
+tr:nth-of-type(7)>th,
+tr:nth-of-type(8)>th,
+tr:nth-of-type(9)>th{
+    background-color: #fff;
+}
+td[colspan]{
+    text-align: center;
+    background-color:white;
+    font-weight: bold;
+    color:#07889b;
+    
+}
+td{
+  color:#494949;
+}
+.primer-grado{
+    background-color: rgb(218, 162, 142);
+}
+.segundo-grado{
+    background-color: yellow;
+}
+.tercer-grado{
+    background-color: orangered; 
+    color:#fff;
+}
+.cuarto-grado{
+    background-color: rgb(10, 135, 122); 
+    color:#fff;
+}
+.quinto-grado{
+    background-color: rgb(39, 123, 44); 
+    color:#fff;
+}
+
+/*en comun*/
+.titulo-material{
+  background: #07889b;
+  text-align:center;
+  width: 100vw;
+  height: 10vh;
+  border: 2px solid #9b9999;
+}
+
+
+@media (max-width: 800px) {
+  /*Menu lateral responsive*/
+  .body{
+        max-width: 100vw;
+  }
+  .container-menu-lateral{
+    margin-top: 70px;
+  }
+  .cont-menu {
+    width: 100%;
+    max-width: 250px;
+    height: 215%;
+  }
+  .cont-menu nav a {
+    font-size: 12px;
+    padding: 10px;
+  }
+  .container-all-notas{
+    flex-wrap: wrap;
+  }
+  
+}

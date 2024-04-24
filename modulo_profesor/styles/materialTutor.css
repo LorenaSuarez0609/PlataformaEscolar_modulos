@@ -1,0 +1,67 @@
+
+/*imagen profesor*/
+.container-img-tutorial{
+    margin-left: 110px;
+    margin-top: 20px;
+    display: flex;
+    display: 80%;
+    justify-content: center;
+    background: #07889b;
+    margin-right: 30px;
+
+}
+.container-img-tutorial img{
+    width: 20rem;
+    height: 15rem;
+    
+}
+/*Selecion de Sede*/
+.needs-validation{
+    padding-left:110px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    
+}
+/*Cards*/
+.card-title{
+    text-align: center;
+    font-size: 14px;
+}
+.card-img-top img{
+    width: 100%;
+}
+.container-card-tutorials{
+    justify-content: center;
+}
+.card-flex{
+    margin-left:110px;
+    margin-top: 10px;
+    display: flex;
+    
+}
+.card-flex > div{
+    flex:30%;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 800px) {
+    .card-flex {
+        flex: 120%;
+        flex-wrap: wrap;
+    }
+    .container-img-tutorial img{
+        width: 100%;
+        height: 100%;
+    }
+    .card-title{
+        font-size:10px;
+    }
+    .needs-validation {
+        width: 80%;
+        padding-left: 30px;
+        
+    }
+}

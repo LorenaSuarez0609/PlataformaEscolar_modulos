@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+  height: 100%;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{  
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#man-with-computer{
+  position: relative;
+  bottom: 700px; left: 900px;
+}
+
+#container{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/olas.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+#formulario{
+  height: 100%;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+}
+
+#formulario h2{
+  color: cadetblue;
+  font-weight: 800;
+}
+
+#formulario input, select{
+  width: 300px;
+  height: 30px;
+  border-color: grey;
+  border-style: solid;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+#formulario .checkbox{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 5px;
+}
+
+#formulario #cb-acepto{
+  width: 30px;
+}
+
+#formulario button{
+  color: white;
+  background-color: cadetblue;
+  border-style: none;
+  border-radius: 50px;
+  height: 45px;
+  cursor: pointer;  
+}
+
+#recuperar-contraseña{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo{
+  width: 200px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  #man-with-computer{
+    display: none;
+  }
+  #formulario{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #formulario h2{
+    text-shadow: 1px  0px 0px black,
+    0px  1px 0px black,
+   -1px  0px 0px black,
+    0px -1px 0px black;
+  }
+}

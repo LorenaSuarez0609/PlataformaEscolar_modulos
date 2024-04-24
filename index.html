@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rendix</title>
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="reset.css">
+        <link rel="stylesheet" href="./styles/style_of_login.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    </head>
+<body>
+    <div id="container">
+    <div id="formulario">
+        <img class="logo" src="./images/img-logo.png" alt="logo">
+        <h2>Iniciar sesión</h2>
+        <h5>Ingrese sus datos</h5>
+            <form  id="form">
+                <select name="perfil" id="perfil" form="Selecciona tu perfil" required>
+                    <!--<option value="invalid" aria-invalid="false">Selecciona tu perfil</option>-->
+                    <option value="alumno">Alumno</option>
+                    <option value="padre">Padres</option>
+                    <option value="profesor">Profesor</option>
+                </select><br></br>
+                <input type="text" placeholder="DNI" required><br></br>
+                <input type="password" placeholder="Contraseña" required><br></br>
+                <div class="checkbox"><input type="checkbox" id="cb-acepto" required> <label for="cb-acepto">Recordar datos</label><br></br></div>
+                <h5 id="recuperar-contraseña">¿Olvidaste tu contraseña?</h5>
+                <button  onclick="loguearme(perfil.value)">Acceder</button>
+            </form>
+    </div>
+    <div>
+        <img id="man-with-computer" src="./images/Telecommuting-pana 1.svg" alt="man with computer">
+    </div>
+    </div>
+    <script src="./js/login.js"></script>
+</body>
+</html>

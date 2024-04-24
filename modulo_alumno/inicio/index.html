@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+        <title>Rendix</title>
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+
+    <body>
+        
+        <section class="sidebar-section">
+            <div class="sidebar-section-header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-auto">
+                                <a class="navbar-brand" href="https://hassalea.github.io/rendix/">
+                                    <img class="img_logo_header" src="./img/img_logo2.png">
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a id="inicio" href="https://hassalea.github.io/rendix/">
+                                <span id="rendix_logo" style="color: #108d9e">REN</span><span id="rendix_logo" style="color: #000000">DIX</span></a>
+                            </div>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <form class="d-flex flex-grow-1">
+                                <input class="form-control me-2 flex-grow-1" type="search" placeholder="Buscar"
+                                    aria-label="Search">
+                            </form>
+                            <ul class="navbar-nav ms-auto flex-nowrap">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-envelope"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-bell"></i></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <div class="d-flex align-items-center">
+                                        <img class="img-estudiante me-2" src="./img/img-estudiante.png" alt="img-estudiante">
+                                        <div>
+                                            <strong>Laura Espinoza</strong>
+                                            <br>
+                                            <a class="nav-link" href="#">
+                                                <span class="d-inline-block">Estudiante</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+            </div>
+            <aside class="sidebar">
+                <header>Menú</header>
+                <nav class="sidebar_nav">
+                    <ul>
+                        <li>
+                            <a href="https://hassalea.github.io/rendix/">
+                            <img src="img/img_home.png" id="img_sidebar"><span class="span_inicio">Inicio</span></a>
+                        </li>
+                        <li>
+                            <a href="https://hassalea.github.io/rendix-miperfil/"><img src="img/img_perfil.png" id="img_sidebar"><span class="">Mi perfil</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/img_materias.png" id="img_sidebar"><span class="">Mis materias</span></a>
+                            <!--<ul class="nav_flyout">
+                                <li>
+                                    <a href="#"> Matemáticas</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Ciencias sociales</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Biología</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Ética</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Inglés</a>
+                                </li>
+                                <li>
+                                    <a href="#"> Seminario</a>
+                                </li>
+                            </ul>-->
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/img_informe.png" id="img_sidebar"><span class="">Mis informes</span></a>
+                            <!--<ul class="nav_flyout">
+                                <li>
+                                    <a href="#"> informes</a>
+                                </li>
+                                <li>
+                                    <a href="#"> informes</a>
+                                </li>
+                                <li>
+                                    <a href="#"> informes</a>
+                                </li>
+                                <li>
+                                    <a href="#"> informes</a>
+                                </li>
+                                <li>
+                                    <a href="#"> informes</a>
+                                </li>
+                            </ul>-->
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/img_asistencia.png" id="img_sidebar"></i> <span class="">Mis asistencias</span></a>
+                        </li>
+                        <li>
+                            <a href="https://hassalea.github.io/rendix-calendario/"><img src="img/img_calendario.png" id="img_sidebar"><span class="">Calendario escolar</span></a>
+                        </li>
+                        <li>
+                            <a href="https://hassalea.github.io/rendix-materiales/"><img src="img/img_material.png" id="img_sidebar"></i> <span class="">Material y tutoriales</span></a>
+                        </li>
+                        <img src="img/img_logo2.png" id="img_sidebar_logo">
+                        <li>
+                          <a href="#" class="link_cerrar"><img src="img/img_cerrar.png" id="img_sidebar"></i> <span class="">Cerrar sesión</span></a>
+                      </li>
+                    </ul>
+                </nav>
+            </aside>
+        </section>
+
+
+        <section class="home">
+        <div class="container-all">
+            <div>
+                <a id="goto-top-button"></a>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            </div>
+
+            <div class="container-banner">
+                <div class="banner_welcome">
+                    <img src="img/img-estudiante.png" alt="logo de Rendix" id="banner_logo">
+                    <h1> ¡Bienvenid@ Laura Espinoza!</h1>
+                    <p></p>
+                </div>
+                <img src="img/img-banner.png" alt="Banner de Rendix" id="banner_img">
+            </div>
+
+
+            <div class="container-pendiente">
+                <div class="pendiente-main">
+                    <div id="titulo"><h2>Mis notas pendientes</h2></div>
+                    <div class="ag-format-container">
+                        <div class="ag-pendiente_box">
+                            <div class="ag-pendiente_item">
+                                <a href="#" class="ag-pendiente-item_link">
+                                <div class="ag-pendiente-item_bg"></div>
+                                <div class="ag-pendiente-item_content">
+                                    <div class="ag-icon">
+                                        <svg class="icono-imagen" width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12.5002 45.8333C11.3543 45.8333 10.3738 45.4257 9.5585 44.6104C8.74322 43.7951 8.33488 42.8138 8.3335 41.6666V8.33329C8.3335 7.18746 8.74183 6.2069 9.5585 5.39163C10.3752 4.57635 11.3557 4.16801 12.5002 4.16663H29.1668L41.6668 16.6666V22.9166C40.8682 23.0902 40.1217 23.368 39.4272 23.75C38.7328 24.1319 38.0904 24.618 37.5002 25.2083L25.0002 37.6562V45.8333H12.5002ZM29.1668 45.8333V39.427L40.6772 27.9687C40.9897 27.6562 41.337 27.4305 41.7189 27.2916C42.1009 27.1527 42.4828 27.0833 42.8647 27.0833C43.2814 27.0833 43.6807 27.1618 44.0627 27.3187C44.4446 27.4757 44.7918 27.7097 45.1043 28.0208L47.0314 29.9479C47.3092 30.2604 47.5266 30.6076 47.6835 30.9895C47.8404 31.3715 47.9182 31.7534 47.9168 32.1354C47.9168 32.5173 47.8474 32.9083 47.7085 33.3083C47.5696 33.7083 47.3439 34.0638 47.0314 34.375L35.5731 45.8333H29.1668ZM42.8647 34.1666L44.7918 32.1354L42.8647 30.2083L40.8856 32.1875L42.8647 34.1666ZM27.0835 18.75H37.5002L27.0835 8.33329V18.75Z" fill="#E37222"/>
+                                        </svg>
+                                    </div>
+                                    <div class="ag-pendiente-item_title">1</div>
+                                </div>
+                                <div class="ag-pendiente-item_desc">Tarea pendiente
+                                </div>
+                                <div class="ag-pendiente-item_cal">Vence en:
+                                    <span class="ag-pendiente-item_name"><!--fecha calendario--></span>
+                                </div>
+                                <div class="ag-pendiente-item_cal">Materia:
+                                    <span class="ag-pendiente-item_name"><!--nombre de la materia--></span>
+                                </div>
+                                </a>
+                            </div>
+    
+                            <div class="ag-pendiente_item">
+                                <a href="#" class="ag-pendiente-item_link">
+                                <div class="ag-pendiente-item_bg"></div>
+                                <div class="ag-pendiente-item_content">
+                                    <div class="ag-icon">
+                                        <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M33.3332 27.0833C34.479 27.0833 35.4165 26.1458 35.4165 25V6.24996C35.4165 5.10413 34.479 4.16663 33.3332 4.16663H6.24984C5.104 4.16663 4.1665 5.10413 4.1665 6.24996V35.4166L12.4998 27.0833H33.3332ZM8.33317 25.3541V8.33329H31.2498V22.9166H10.7707L8.33317 25.3541ZM45.8332 14.5833C45.8332 13.4375 44.8957 12.5 43.7498 12.5H39.5832V31.25H12.4998V35.4166C12.4998 36.5625 13.4373 37.5 14.5832 37.5H37.4998L45.8332 45.8333V14.5833Z" fill="#07889B"/></svg>
+                                        </div>
+                                    <div class="ag-pendiente-item_title">3</div>
+                                </div>
+                                <div class="ag-pendiente-item_desc">Mensajes de:
+                                    <span class="ag-pendiente-item_name"><!--nombre del docente--></span><br>
+                                </div>
+                                <div class="ag-pendiente-item_cal">Materia:
+                                    <span class="ag-pendiente-item_name"><!--nombre de la materia--></span><br><br>
+                                </div>
+                                </a>
+                            </div>
+    
+                            <div class="ag-pendiente_item">
+                                <a href="#" class="ag-pendiente-item_link">
+                                <div class="ag-pendiente-item_bg"></div>
+                                <div class="ag-pendiente-item_content">
+                                    <div class="ag-icon">
+                                        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M22 28.2499L26.1667 32.4166L34.5 24.0833" stroke="#E37222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M38.6665 13.6666H17.8332C15.532 13.6666 13.6665 15.5321 13.6665 17.8333V38.6666C13.6665 40.9678 15.532 42.8333 17.8332 42.8333H38.6665C40.9677 42.8333 42.8332 40.9678 42.8332 38.6666V17.8333C42.8332 15.5321 40.9677 13.6666 38.6665 13.6666Z" stroke="#E37222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M5.33317 30.3333C3.0415 30.3333 1.1665 28.4583 1.1665 26.1666V5.33329C1.1665 3.04163 3.0415 1.16663 5.33317 1.16663H26.1665C28.4582 1.16663 30.3332 3.04163 30.3332 5.33329" stroke="#E37222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                    <div class="ag-pendiente-item_title">2</div>
+                                </div>
+                                <div class="ag-pendiente-item_desc">Calificación pendiente
+                                </div>
+                                <div class="ag-pendiente-item_cal">Vence en:
+                                    <span class="ag-pendiente-item_name"><!--fecha calendario--></span>
+                                </div>
+                                <div class="ag-pendiente-item_cal">Materia:
+                                    <span class="ag-pendiente-item_name"><!--nombre de la materia--></span>
+                                </div>
+                                </a>
+                            </div>
+    
+                            <div class="ag-pendiente_item">
+                                <a href="#" class="ag-pendiente-item_link">
+                                <div class="ag-pendiente-item_bg"></div>
+                                <div class="ag-pendiente-item_content">
+                                    <div class="ag-icon">
+                                        <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M39.5833 8.33329H37.5V4.16663H33.3333V8.33329H16.6667V4.16663H12.5V8.33329H10.4167C8.10417 8.33329 6.27083 10.2083 6.27083 12.5L6.25 41.6666C6.25 42.7717 6.68899 43.8315 7.47039 44.6129C8.25179 45.3943 9.3116 45.8333 10.4167 45.8333H39.5833C41.875 45.8333 43.75 43.9583 43.75 41.6666V12.5C43.75 10.2083 41.875 8.33329 39.5833 8.33329ZM39.5833 41.6666H10.4167V20.8333H39.5833V41.6666ZM39.5833 16.6666H10.4167V12.5H39.5833V16.6666ZM18.75 29.1666H14.5833V25H18.75V29.1666ZM27.0833 29.1666H22.9167V25H27.0833V29.1666ZM35.4167 29.1666H31.25V25H35.4167V29.1666ZM18.75 37.5H14.5833V33.3333H18.75V37.5ZM27.0833 37.5H22.9167V33.3333H27.0833V37.5ZM35.4167 37.5H31.25V33.3333H35.4167V37.5Z" fill="#07889B"/>
+                                        </svg>
+                                    </div>
+                                    <div class="ag-pendiente-item_title">07/04/2024</div>
+                                </div>
+                                <div class="ag-pendiente-item_desc">Exámen
+                                    <span class="ag-pendiente-item_name"><!--nombre del docente--></span>
+                                </div>
+                                <div class="ag-pendiente-item_cal">Vence en:
+                                    <span class="ag-pendiente-item_name"><!--fecha calendario--></span>
+                                </div>
+                                <div class="ag-pendiente-item_cal">Materia:
+                                    <span class="ag-pendiente-item_name"><!--nombre de la materia--></span>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="cursos-main">
+                <div id="titulo"><h2>Mis materias</h2></div>
+                <div class="ag-format-container">
+                    <div class="ag-courses_box">
+
+                        <div class="ag-courses_item">
+                            <a href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title">Matemáticas</div>
+                            <div class="ag-courses-item_docente">Docente:
+                                <span class="ag-courses-item_name"><!--nombre del docente--></span>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="ag-courses_item">
+                            <a href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title">Historia</div>
+                            <div class="ag-courses-item_docente">Docente:
+                                <span class="ag-courses-item_name"><!--nombre del docente--></span>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="ag-courses_item">
+                            <a href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title">Biología</div>
+                            <div class="ag-courses-item_docente">Docente:
+                                <span class="ag-courses-item_name"><!--nombre del docente--></span>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="ag-courses_item">
+                            <a href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title">Ética</div>
+                            <div class="ag-courses-item_docente">Docente:
+                                <span class="ag-courses-item_name"><!--nombre del docente--></span>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="ag-courses_item">
+                            <a href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title">Inglés</div>
+                            <div class="ag-courses-item_docente">Docente:
+                                <span class="ag-courses-item_name"><!--nombre del docente--></span>
+                            </div>
+                            </a>
+                        </div>
+
+                        <div class="ag-courses_item">
+                            <a href="#" class="ag-courses-item_link">
+                            <div class="ag-courses-item_bg"></div>
+                            <div class="ag-courses-item_title">Seminario</div>
+                            <div class="ag-courses-item_docente">Docente:
+                                <span class="ag-courses-item_name"><!--nombre del docente--></span>
+                            </div>
+                            </a>
+                        </div>
+                  
+                    </div>
+                </div>
+            </div>
+
+            <div class="cursos-events"> 
+                <div class="calendar">
+                    <div class="calendar__opts">
+                        <select name="calendar__month" id="calendar__month">
+                            <option>Ene</option>
+                            <option>Feb</option>
+                            <option>Mar</option>
+                            <option selected>Abr</option>
+                            <option>May</option>
+                            <option>Jun</option>
+                            <option>Jul</option>
+                            <option>Ago</option>
+                            <option>Sep</option>
+                            <option>Oct</option>
+                            <option>Nov</option>
+                            <option>Dic</option>
+                        </select>
+                  
+                        <select name="calendar__year" id="calendar__year">
+                            <option>2022</option>
+                            <option>2023</option>
+                            <option selected>2024</option>
+                        </select>
+                    </div>
+                  
+                    <div class="calendar__body">
+                        <div class="calendar__days">
+                            <div>L</div>
+                            <div>M</div>
+                            <div>Mi</div>
+                            <div>J</div>
+                            <div>V</div>
+                            <div>S</div>
+                            <div>D</div>
+                    </div>
+                  
+                    <div class="calendar__dates">
+                        <div class="calendar__date"><span>1</span></div>
+                        <div class="calendar__date"><span>2</span></div>
+                        <div class="calendar__date"><span>3</span></div>
+                        <div class="calendar__date"><span>4</span></div>
+                        <div class="calendar__date"><span>5</span></div>
+                        <div class="calendar__date"><span>6</span></div>
+                        <div class="calendar__date"><span>7</span></div>
+                        <div class="calendar__date"><span>8</span></div>
+                        <div class="calendar__date"><span>9</span></div>
+                        <div class="calendar__date"><span>10</span></div>
+                        <div class="calendar__date"><span>11</span></div>
+                        <div class="calendar__date"><span>12</span></div>
+                        <div class="calendar__date"><span>12</span></div>
+                        <div class="calendar__date"><span>13</span></div>
+                        <div class="calendar__date"><span>14</span></div>
+                        <div class="calendar__date"><span>15</span></div>
+                        <div class="calendar__date"><span>16</span></div>
+                        <div class="calendar__date"><span>17</span></div>
+                        <div class="calendar__date"><span>18</span></div>
+                        <div class="calendar__date calendar__date--selected calendar__date--first-date calendar__date--range-start"><span>19</span></div>
+                        <div class="calendar__date calendar__date--selected calendar__date--last-date"><span>20</span></div>
+                        <div class="calendar__date calendar__date--selected calendar__date--first-date"><span>21</span></div>
+                        <div class="calendar__date calendar__date--selected"><span>22</span></div>
+                        <div class="calendar__date calendar__date--selected"><span>23</span></div>
+                        <div class="calendar__date calendar__date--selected calendar__date--last-date calendar__date--range-end"><span>24</span></div>
+                        <div class="calendar__date"><span>25</span></div>
+                        <div class="calendar__date"><span>26</span></div>
+                        <div class="calendar__date"><span>27</span></div>
+                        <div class="calendar__date"><span>28</span></div>
+                        <div class="calendar__date"><span>29</span></div>
+                        <div class="calendar__date"><span>30</span></div>
+                        <div class="calendar__date"><span>28</span></div>
+                        <div class="calendar__date"><span>29</span></div>
+                        <div class="calendar__date"><span>30</span></div>
+                        <div class="calendar__date calendar__date--grey"><span>1</span></div>
+                    </div>
+                    <div id="eventListContainer">
+                        <h3>Eventos Agregados</h3>
+                        <ul id="eventList"></ul>
+                    </div>
+            </div>
+            <div id="eventModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-button">×</span>
+                    <h2>Evento o Tarea</h2>
+                    <input type="text" id="eventName" placeholder="Nombre del Evento/Tarea">
+                    <div class="modal-buttons">
+                        <button id="modifyEventButton" style="display:none;">Modificar</button>
+                        <button id="cancelEventButton" style="display:none;">Borrar Evento</button>
+                        <button id="saveEventButton">Guardar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="notificationContainer" class="notification-container">
+                <div class="notification-message">
+                    <p>Evento creado con éxito!</p>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        
+    </section>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>

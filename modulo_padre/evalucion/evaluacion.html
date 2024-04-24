@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Rendix</title>
+        <link rel="icon" href="./img/favicon.ico">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <link rel="stylesheet" href="../style/reset.css">
+        <link rel="stylesheet" href="../style/style.css">
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+
+    <body>
+        
+        <section class="sidebar-section">
+            <div class="sidebar-section-header">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <span id="rendix_logo" style="color: #108d9e">REN</span><span id="rendix_logo" style="color: #000000">DIX</span>
+                                </h1>
+                            </div>
+                            <div class="col-auto">
+                                <a class="navbar-brand" href="#">
+                                    <img class="img_logo_header" src="./img/img_logo2.png">
+                                </a>
+                            </div>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <form class="d-flex flex-grow-1">
+                                <input class="form-control me-2 flex-grow-1" type="search" placeholder="Buscar"
+                                    aria-label="Search">
+                            </form>
+                            <ul class="navbar-nav ms-auto flex-nowrap">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-envelope"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="far fa-bell"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <div class="d-flex align-items-center">
+                                        <div class="padre">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+            </div>
+            
+            <aside class="sidebar">
+                <header>Menú</header>
+                <nav class="sidebar_nav">
+                    <ul>
+                        <li>
+                            <a href="../index.html"><img src="./img/img_home.png" id="img_sidebar"><span class="">Inicio</span></a>
+                        </li>
+                        <li>
+                            <a href="../perfil/perfil.html"><img src="./img/img_perfil.png" id="img_sidebar"><span class="">Mi perfil</span></a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a href="#" class="dropbtn"><img src="./img/img_informe.png" id="img_sidebar"><span>Mis informes</span></a>
+                                <div class="dropdown-content">
+                                    <a href="#"><span class="">Evaluaciones</span></a>
+                                    <a href="../historialAcademico/historialAcademico.html"><span class="">Historial Academico</span></a>
+                                </div>
+                            </div>
+                        </li>                         
+                        <li>
+                            <a href="#"><img src="./img/img_materias.png" id="img_sidebar"><span class="">Mis materias</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./img/img_asistencia.png" id="img_sidebar"></i> <span class="">Mis asistencias</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./img/img_calendario.png" id="img_sidebar"><span class="">Calendario escolar</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./img/img_material.png" id="img_sidebar"></i> <span class="">Material y tutoriales</span></a>
+                        </li>
+                    </ul>
+                    <img src="./img/img_logo2.png" id="img_sidebar_logo">
+                </nav>
+            </aside>
+        </section>
+
+        <section class="home">
+            <div class="container-evaluaciones">
+                <div class="tituloEvaluaciones">
+                    Mis Evaluaciones
+                </div>
+                <div class="identificacion">
+                </div>
+                <div class="evaluaciones">
+                    <div class="form-group">
+                        <label for="sede">Sede-Jornada:</label>
+                        <select name="sede" id="sede" >
+                                <option value="Sede-Coliseo">Sede-Coliseo</option>
+                                <option value="Sede-Buenos-Aires">Sede-Buenos Aires</option>
+                        </select>
+                        <label for="cars">Curso:</label>
+                        <select name="cars" id="cars">
+                            <option value="Matematica">Matematica</option>
+                            <option value="lengua">Lengua</option>
+                            <option value="Historia">Historia</option>
+                        </select>
+                        <label for="cars">Seccion:</label>
+                        <select name="cars" id="cars">
+                            <option value="Segundo A">Segundo A</option>
+                            <option value="Segundo B">Segundo B</option>
+                            <option value="Primero A">Primero A</option>
+                            <option value="Primero B">Primero B</option>
+                        </select>
+                        <br>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer-fill" viewBox="0 0 16 16">
+                            <path d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1"/>
+                            <path d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"/>
+                        </svg>
+                        <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-printer-fill"></i>Imprimir</button>
+                        <br>
+                        <br>
+                        <img class="img-evaluaciones" src="./img/evaluaciones.png" alt="imagen evaluaciones">
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>
