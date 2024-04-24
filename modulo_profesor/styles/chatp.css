@@ -4,6 +4,11 @@ body {
   margin-top: 20px;
   margin-left: 30px;
 }
+
+.container-chat{
+  padding-left: 110px;
+
+}
 .card {
   background: #fff;
   transition: 0.5s;
